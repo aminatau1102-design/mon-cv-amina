@@ -71,6 +71,7 @@
 
 .section {
     margin-bottom: 25px;
+    padding: 15px;
 }
 .section h4{
     color: #10100f;
@@ -83,7 +84,7 @@
     height: 3px;
     background-color: #161615;
     border: none;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .section ul  {
     list-style-type: square;
