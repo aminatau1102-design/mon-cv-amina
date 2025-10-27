@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" href="../">
+</head>
+<body>
+    <div class="contenu">
+        <form action="" method="post" class="formulaire">
+            <h2>Creer un compte</h2>
+            <div class="form-groupe">
+                <label>Prenom</label>
+                <input type="text" name="prenom" placeholder="Entrer votre nom" requiert>
+            </div>
+            <div class="form-groupe">
+                <label>Entrer votre nom</label>
+                <input type="text" name="nom" placeholder="Entrer votre nom" requiert>
+            </div>
+            <div class="form-groupe">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Entrer votre Email" requiert>
+            </div>
+            <div class="form-groupe">
+                <label>Mot de pass</label>
+                <input type="password" name="psw" placeholder="Creer votre mot de pass" requiert>
+            </div>
+            <div class="form-groupe">
+                <label>Pays</label>
+                <select name="pays"requiert>
+                    <option value="">Selectionner votre Pays</option>
+                    <option value="Senegal">Senegal</option>
+                    <option value="mali">Mali</option>
+                    <option value="coteivoire">Cote d'ivoire</option>
+                    <option value="guinee">Guinee</option>
+                </select>
+            </div>
+            <div class="form-group checkbox">
+                <label>
+                    <input type="checkbox" requiert>j'accepte les conditions d'utilisation
+                </label>
+                </div>
+                <input type="submit" value="s'inscrire" class="btn">
+                <p class="login-text">Deja un compte ? <a href="# ">Connectez-vous</a></p>
+ 
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

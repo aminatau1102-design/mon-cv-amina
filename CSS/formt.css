@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "padding",sans-serif;
+    background: linear-gradient(135 deg,#6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+.contenu{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 25px rgba(0,0,0,2);
+}
+.formulaire h2{
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+.form-group label{
+    display: block;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+.form-group input,
+.form-groupe select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+

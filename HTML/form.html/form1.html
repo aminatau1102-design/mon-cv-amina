@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Formulaire</title>
+</head>
+<body>
+   <form action="" methode="get" class="form-class">
+      <label for="email">Entrer votre E-mail</label>
+      <input type="text" name="email" id="email" requiert><br>
+      <label for="prenom">Entrer votre nom</label>
+      <input type="text" name="nom" id="nom" requiert><br>
+      <label for="password"> Entrer votre mot de pass</label>
+      <input type="password" name="psw" id="psw" requiert><br>
+      <label>votre plat preferer ?</label><br>
+      <input type="checkbox" name="c1" id="c1" value="thiebou dieun">
+      <label>Thiebou dieun</label><br>
+      <input type="checkbox" name="c2" id="c2" name="yassa">
+      <label>yassa</label><br>
+      <input type="checkbox" name="c3" id="c3" name="maffe"> 
+      <label>maffe</label><br>
+      <label>Sexe</label>
+      <div>
+         <input type="radio" name="F" id="F" value="F" checked>
+         <label for="F">F</label>
+      </div>
+      <div>
+         <input type="radio" name="F" id="M" value="M" >
+         <label for="M">M</label>
+      </div>
+      <div>
+         <button id="btn2">envoyer</button>
+      </div>
+      <div>
+         <input type="file" if="fichier">
+      </div>
+      <label>Liste deroulante</label>
+      <select name="pays">
+         <option value="Gjambie">Gjambie</option>
+         <option value="senegal" selected>senegal</option>
+         <option value="niger">niger</option>
+         <option value="france"> france</option>
+      </select>
+      <label>liste deroulante</label><br>
+      <select name="Nationalite" multiple>
+         <option value="Senegalais">Senegalais</option>
+         <option value="Americain">Americain</option>
+         <option value="Nigerian">Nigerian</option>
+         <option value="Francais">Francais</option>
+         <option value="Portugais">Portugais</option>
+      </select>
+   </form>
+   <form>
+      <fieldset>
+         <legend>Votre Ethnie</legend>
+         <input type="radio" name="monster" id="sr">
+         <label for="sr">Serrere</label>
+         <br>
+         <input type="radio" name="monster" id="peulh">
+         <label for="pl">peulh</label>
+         <br>
+      </fieldset>
+      <input type="submit" value="Envoyer">
+   </form>
+</body>
+</html>
